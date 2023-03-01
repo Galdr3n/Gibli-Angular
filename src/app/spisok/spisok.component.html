@@ -1,0 +1,17 @@
+<ul class="list-group list-group-flush">
+    <li *ngFor="let film of spisok" class="mb-3 list-unstyled">
+        <div class="card">
+            <div class="card-header">
+                <h1>{{film.title}}</h1>
+            </div>
+            
+            <a routerLink="/detali/{{film.id}}">
+                <img src={{film.image}} style="width:250px"/>
+            </a>
+            <div class="card-footer">
+                <p>Score: <strong>{{film.rt_score}}</strong></p>
+                <p>{{film.description}}</p>
+            </div>
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,15 @@
+<div *ngIf = "film">
+    <img src={{film.image}} style="width:250px"/>
+    <p>title: <strong>{{film.title | uppercase}}</strong></p>
+    <p>original-title: <strong>{{film.original_title}}</strong></p>
+    <p>description: <strong>{{film.description}}</strong></p>
+    <p>score: <strong>{{film.rt_score}}</strong></p>
+    <p>director: <strong>{{film.director}}</strong></p>
+    <p>producer: <strong>{{film.producer}}</strong></p>
+    <p>release_date: <strong>{{film.release_date}}</strong></p>
+    <p>running_time: <strong>{{film.running_time}}</strong></p>
+</div>
+
+<div class="d-grid gap-2">
+    <button type="button" class="btn btn-secondary" (click)="goBack()">go back</button>
+</div>
