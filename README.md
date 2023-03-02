@@ -1,4 +1,21 @@
 # MyFirstApp
+Run ng serve --port 4200 --host 0.0.0.0 --proxy-config proxy.conf.json for a dev server. Navigate to http://localhost:4200/
+
+https://ghibliapi.herokuapp.com/ перестал быть общедоступным, поэтому надо будет склонировать себе проект и локально его запустить.
+
+Проект в github:
+https://github.com/janaipakos/ghibliapi
+
+Зайти на своем компьютере в папку проектов, через командную строку выполнить:
+git clone https://github.com/janaipakos/ghibliapi.git
+
+Зайти в созданную папку, далее установить пакеты:
+npm install
+
+И запустить сам проект:
+npm start
+
+Должен запуститься проект по адресу http://localhost:3000/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
